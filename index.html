@@ -8,8 +8,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"/>
-    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -17,7 +18,11 @@
     <header>
       <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
         <div class="container-fluid">
-          <img class="navbar-brand img-logo" src="imagenes/icono.jpg" alt="icono"/>
+          <img
+            class="navbar-brand img-logo"
+            src="imagenes/icono.jpg"
+            alt="icono"
+          />
           <button
             class="navbar-toggler"
             type="button"
@@ -32,30 +37,25 @@
           <div class="collapse navbar-collapse show" id="navbarDark">
             <ul class="navbar-nav me-auto mb-2 mb-xl-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contactos</a
                 >
               </li>
             </ul>
             <form class="d-flex">
               <input
                 class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
+                type="buscar"
+                placeholder="buscar"
+                aria-label="buscar"
               />
               <button class="btn btn-outline-light" type="submit">
-                Search
+                buscar
               </button>
             </form>
           </div>
@@ -72,12 +72,18 @@
               alt="card-grid-image"
             />
             <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
+              <h1 class="card-title">Cuchilla Artesanal Parrilla Y Cocina Para Asado
+              </h1>
+              <h2 class="precio">Precio: $5.476</h2>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                <ul>
+                  <li>Tipos de cuchillos: Artesanal</li>
+                  <li>Material de la hoja: Acero al Carbono</li>
+                  <li>Material del mango: Asta de Ciervo</li>
+                  <li>Largo: 33.5 cm</li>
+                </ul>
               </p>
+              <button type="button" class="btn btn-outline-dark" data-bs-toggle="button" autocomplete="off">Comprar ahora</button>
             </div>
           </div>
         </div>
@@ -89,12 +95,16 @@
               alt="card-grid-image"
             />
             <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
+              <h1 class="card-title">Cuchillo Artesanal De Campo Disco Arado Acero Asado</h1>
+              <h2 class="precio">Precio: $2.476</h2>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                <ul>
+                <li>Largo de la hoja: 14 cm</li>
+                <li>Material del mango: Madera</li>
+                <li>Material de la hoja: Acero</li>
+              </ul>
               </p>
+              <button type="button" class="btn btn-outline-dark" data-bs-toggle="button" autocomplete="off">Comprar ahora</button>
             </div>
           </div>
         </div>
@@ -106,12 +116,17 @@
               alt="card-grid-image"
             />
             <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
+              <h1 class="card-title">Cuchillo Artesanal Cabo Madera Con Cinco Virolas De Alpaca</h1>
+              <h2 class="precio">Precio: $6.000</h2>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               <ul>
+                <li>Largo de la hoja: 14 cm</li>
+                <li>Material de la hoja: Acero inoxidable</li>
+                <li>Material del mango: Madera y Alpaca</li>
+                <li>Marca: Dagger</li>
+               </ul>
               </p>
+              <button type="button" class="btn btn-outline-dark" data-bs-toggle="button" autocomplete="off">Comprar ahora</button>
             </div>
           </div>
         </div>
@@ -123,18 +138,23 @@
               alt="card-grid-image"
             />
             <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
+              <h1 class="card-title">Cuchillos Artesanales Trenzado Alpaca Cincelado</h1>
+              <h2 class="precio">Precio: $3.500</h2>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                <ul>
+                  <li>Marca: Dagger</li>
+                  <li>Material de la hoja: Acero inoxidable</li>
+                  <li>Material del mango: Alpaca</li>
+                  <li>Largo de la hoja: 14 cm</li>
+                </ul>
               </p>
+              <button type="button" class="btn btn-outline-dark" data-bs-toggle="button" autocomplete="off">Comprar ahora</button>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <script src="./app.js"></script>
+    <script src="app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
